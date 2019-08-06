@@ -1,76 +1,9 @@
 {
-  "added": [{ "id": 1, "somekey": "somevalue" }],
-  "removed": [
-    {
-      "id": 10460167,
-      "name": "ASOS 4505 running tights with quick dry in dark gray",
-      "price": {
-        "current": { "value": 15.5, "text": "$15.50" },
-        "previous": { "value": 26, "text": "$26.00" },
-        "rrp": { "value": null, "text": "" },
-        "isMarkedDown": true,
-        "isOutletPrice": false,
-        "currency": "USD"
-      },
-      "colour": "Dark gray",
-      "colourWayId": 16282501,
-      "brandName": "ASOS 4505",
-      "hasVariantColours": false,
-      "hasMultiplePrices": false,
-      "groupId": null,
-      "productCode": 1333902,
-      "productType": "Product",
-      "url": "asos-4505/asos-4505-running-tights-with-quick-dry-in-dark-gray/prd/10460167?clr=dark-gray&colourWayId=16282501",
-      "imageUrl": "images.asos-media.com/products/asos-4505-running-tights-with-quick-dry-in-dark-gray/10460167-1-darkgrey"
-    }
-  ],
   "changed": [
     {
-      "before": {
-        "id": 11414649,
-        "name": "ASOS DESIGN super skinny sweatpants in poly tricot with side stripe in black",
-        "price": {
-          "current": { "value": 14, "text": "$14.00" },
-          "previous": { "value": 35, "text": "$35.00" },
-          "rrp": { "value": null, "text": "" },
-          "isMarkedDown": true,
-          "isOutletPrice": false,
-          "currency": "USD"
-        },
-        "colour": "Black",
-        "colourWayId": 16341441,
-        "brandName": "ASOS DESIGN",
-        "hasVariantColours": false,
-        "hasMultiplePrices": false,
-        "groupId": null,
-        "productCode": 1408192,
-        "productType": "Product",
-        "url": "asos-design/asos-design-super-skinny-sweatpants-in-poly-tricot-with-side-stripe-in-black/prd/11414649?clr=black&colourWayId=16341441",
-        "imageUrl": "images.asos-media.com/products/asos-design-super-skinny-sweatpants-in-poly-tricot-with-side-stripe-in-black/11414649-1-black"
-      },
-      "after": {
-        "id": 11414649,
-        "name": "ASOS DESIGN super skinny sweatpants in poly tricot with side stripe in black",
-        "price": {
-          "current": { "value": 18, "text": "$14.00" },
-          "previous": { "value": 35, "text": "$35.00" },
-          "rrp": { "value": null, "text": "" },
-          "isMarkedDown": true,
-          "isOutletPrice": false,
-          "currency": "USD"
-        },
-        "colour": "Black",
-        "colourWayId": 16341441,
-        "brandName": "ASOS DESIGN",
-        "hasVariantColours": false,
-        "hasMultiplePrices": false,
-        "groupId": null,
-        "productCode": 1408192,
-        "productType": "Product",
-        "url": "asos-design/asos-design-super-skinny-sweatpants-in-poly-tricot-with-side-stripe-in-black/prd/11414649?clr=black&colourWayId=16341441",
-        "imageUrl": "images.asos-media.com/products/asos-design-super-skinny-sweatpants-in-poly-tricot-with-side-stripe-in-black/11414649-1-black"
-      },
-      "changedValues": ["price.current.value"]
+      "before": { "a": { "b": 4 } },
+      "after": { "a": { "b": 2 } },
+      "changedValues": ["a.b"]
     }
   ]
 }
