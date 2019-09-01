@@ -1,9 +1,0 @@
-{
-  "changed": [
-    {
-      "before": { "a": { "b": 4 } },
-      "after": { "a": { "b": 2 } },
-      "changedValues": ["a.b"]
-    }
-  ]
-}

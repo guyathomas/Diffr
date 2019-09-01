@@ -1,0 +1,13 @@
+version: "3"
+services:
+  diff:
+    # image: stolemyusername/diffr
+    build: ./Diff
+    volumes:
+    - /Users/guy/src/diffr/Diff:/usr/src/app
+    networks:
+      - job
+      - web
+networks:
+  web:
+  job:
