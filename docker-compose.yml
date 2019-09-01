@@ -1,13 +1,27 @@
 version: "3"
 services:
-  diff:
+  diff-server:
     # image: stolemyusername/diffr
     build: ./Diff
     volumes:
     - /Users/guy/src/diffr/Diff:/usr/src/app
     networks:
-      - job
+      - jobs
       - web
+  jobs-db:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - jobs-data
+  web-server:
+    build: ./Web
+    ports:
+      - 80:3000
+    depends_on:
+      - jobs-db
 networks:
   web:
-  job:
+  jobs:
+volumes:
+  jobs-data:
