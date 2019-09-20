@@ -1,5 +1,4 @@
 import express from 'express';
-
 const router = express.Router();
 
 function get(req, res, next) {
